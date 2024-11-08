@@ -42,7 +42,7 @@
             }
             else
             {
-                if((btn10.Text == "O" && btn11.Text == "O" && btn12.Text == "O") ||
+                if ((btn10.Text == "O" && btn11.Text == "O" && btn12.Text == "O") ||
                 (btn20.Text == "O" && btn21.Text == "O" && btn22.Text == "O") ||
                 (btn30.Text == "O" && btn31.Text == "O" && btn32.Text == "O") ||
                 (btn10.Text == "O" && btn20.Text == "O" && btn30.Text == "O") ||
@@ -54,7 +54,8 @@
                 {
                     DisplayAlert("Parabéns!", "O 'O' ganhou", "OK");
                     Zerar();
-                }
+                } 
+                       
             }
 
         }//fecha método
